@@ -1,18 +1,3 @@
-body{
-    background: #FFFFFF;
-}
-
-div {
-    box-sizing: border-box;
-}
-
-.image-container {
-  background-image: url("../img/bg.jpg"); /* The image used - important! */
-  background-size: auto;
-  position: relative; /* Needed to position the cutout text in the middle of the image */
-  height: 1050px; /* Some height */
-}
-
 .text1 {
   background-color: white;
   opacity: 0.8;
@@ -24,7 +9,7 @@ div {
   width: 100%;
   text-align: center; /* Center text */
   position: absolute; /* Position text */
-  top: 20%; /* Position text in the middle */
+  top: 25%; /* Position text in the middle */
   left: 50%; /* Position text in the middle */
   transform: translate(-50%, -50%); /* Position text in the middle */
   mix-blend-mode: none; /* This makes the cutout text possible */
@@ -46,3 +31,4 @@ div {
   transform: translate(-50%, -50%); /* Position text in the middle */
   mix-blend-mode: none; /* This makes the cutout text possible */
 }
+
